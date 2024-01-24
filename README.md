@@ -1,5 +1,6 @@
 # MAPE-PPI
 **MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding (Spotlight)**
+
 Lirong Wu, Yijun Tian, Yufei Huang,  Siyuan Li, Haitao Lin, Nitesh V Chawla, Stan Z. Li. In [ICLR](https://openreview.net/forum?id=itGkF993gz), 2024.
 
 <p align="center">
