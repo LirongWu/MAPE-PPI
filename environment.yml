@@ -1,0 +1,18 @@
+name: MAPE-PPI
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # PyTorch dependencies, you may change to your preferred version.
+  - pytorch==2.0.0
+  - cudatoolkit=11.7
+
+  # Others
+  - dgl==0.9.1post1
+  - numpy==1.20.1
+  - csv==1.0
+  - json==2.0.9
+  - nni==2.10
+  - argparse==1.1
