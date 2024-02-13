@@ -55,11 +55,11 @@ The hyperparameters customized for each dataset and data partitions are availabl
 
 ### Pre-training on additional data, Inference on SHS27k/SHS148k/STRING
 
-To pre-train with customized protein sequence-structure pairs (e.g., CATH or AlphaFoldDB datasets), please refer to the following steps:
+To pre-train with customized data (e.g., CATH or AlphaFoldDB datasets), please refer to the following steps:
 
 (1) Download additional pre-training data (including their PDF files) from the official website.
 
-(2) Pre-process PDB files for all pre-training data as done in `./raw_data/data_process.py` and transform into three files:
+(2) Pre-process pre-training PDB files as done in `./raw_data/data_process.py` and transform into three files:
 
 * `protein.nodes.pretrain_data.pt`
 * `protein.rball.edges.pretrain_data.npy`
@@ -77,7 +77,7 @@ python -B train.py --dataset STRING --split_mode bfs --pre_train pretrain_data
 
 ### Loading the pre-trained model and Inference on SHS27k/SHS148k/STRING
 
-We provide a pre-trained model in `./trained_model/`  for PPI prediction on the STRING dataset. To use it, please running
+We provide a pre-trained model in `./trained_model/`  for PPI prediction on STRING. To use it, please run
 
 ```
 python -B train.py --dataset STRING --split_mode bfs --ckpt_path ../trained_model/vae_model.ckpt
