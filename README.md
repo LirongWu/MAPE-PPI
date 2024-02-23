@@ -37,7 +37,7 @@ where `data_name` is one of the three datasets (SHS27k, SHS148k, and STRING).
 
 For ease of use, we have pre-processed these three datasets and placed the **processed data** in [Google Drive](https://drive.google.com/file/d/16JkdWJ92jy_kVGc92ngXlLKbcSLAPu0P/view?usp=sharing). 
 
-To use the the processed data, please put them in `./data/processed_data/.
+To use the processed data, please put them in `./data/processed_data/.
 
 
 
