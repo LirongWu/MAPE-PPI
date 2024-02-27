@@ -90,6 +90,14 @@ python -B train.py --dataset STRING --split_mode bfs --ckpt_path ../trained_mode
 If you are interested in our repository and our paper, please cite the following paper:
 
 ```
+@article{wu2024mape,
+  title={MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding},
+  author={Wu, Lirong and Tian, Yijun and Huang, Yufei and Li, Siyuan and Lin, Haitao and Chawla, Nitesh V and Li, Stan Z},
+  journal={arXiv preprint arXiv:2402.14391},
+  year={2024}
+}
+```
+```
 @inproceedings{
     wy2024mapeppi,
     title={MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding},
@@ -99,8 +107,6 @@ If you are interested in our repository and our paper, please cite the following
     url={https://openreview.net/forum?id=itGkF993gz}
 }
 ```
-
-
 
 ## Feedback
 
