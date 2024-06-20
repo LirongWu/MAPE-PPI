@@ -97,16 +97,6 @@ If you are interested in our repository and our paper, please cite the following
   year={2024}
 }
 ```
-```
-@inproceedings{
-    wy2024mapeppi,
-    title={MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding},
-    author={Wu, Lirong and Tian, Yijun and Huang, Yufei and Li, Siyuan and Lin, Haitao and Chawla, Nitesh V and Li, Stan Z},
-    booktitle={The Twelfth International Conference on Learning Representations},
-    year={2024},
-    url={https://openreview.net/forum?id=itGkF993gz}
-}
-```
 
 ## Feedback
 
